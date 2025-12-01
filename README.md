@@ -25,3 +25,6 @@ jobs:
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+git add .github/workflows/daily-thumbnail-generator.yml
+git commit -m "Add daily thumbnail workflow"
+git push
